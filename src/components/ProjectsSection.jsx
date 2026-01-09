@@ -1,11 +1,15 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import varsity from "@/assets/varsity.jpeg";
+import aquafind from "@/assets/aquafind.png";
+import potluck from "@/assets/potluck.png";
+
 
 const projects = [
   {
     id: 1,
     title: "Varsity Sports App",
     description: "A varsity sports broadcasting app built using Kotlin and Retrofit.",
-    image: "/projects/varsity.jpeg",
+    image: varsity,
     tags: ["Kotlin", "Retrofit", "Swagger UI"],
     demoUrl: "#",
     githubUrl: "https://github.com/orius7/Varsity_Sports_App",
@@ -15,7 +19,7 @@ const projects = [
     title: "Aquafind",
     description:
       "A hackathon winning web app that helps users find nearby water sources.",
-    image: "/projects/aquafind.png",
+    image: aquafind,
     tags: ["AWS DynamoDB", "AWS Lambda", "API Gateway"],
     demoUrl: "#",
     githubUrl: "https://github.com/orius7/Aquafind_App",
@@ -25,7 +29,7 @@ const projects = [
     title: "Potluck App",
     description:
       "A collaborative platform for organizing potluck events with RSVP functionality.",
-    image: "/projects/potluck.png",
+    image: potluck,
     tags: ["XCode", "Swift", "MVVM"],
     demoUrl: "#",
     githubUrl: "https://github.com/orius7/Potluck-main",
