@@ -73,7 +73,14 @@ export const ContactSection = () => {
 
                 <div className="flex flex-col items-center space-y-2">
                     <div className="p-3 rounded-full bg-primary/10">
-                    <Linkedin className="h-6 w-6 text-primary" />
+                        <a
+                            href="https://www.linkedin.com/in/aidan-lei-807b49219"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-muted-foreground hover:text-primary transition-colors"
+                        >
+                            <Linkedin className="h-6 w-6 text-primary" />
+                        </a>
                     </div>
                     <h4 className="font-medium">LinkedIn</h4>
                     <a
