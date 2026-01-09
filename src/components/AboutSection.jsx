@@ -1,4 +1,5 @@
 import { AppWindow, Briefcase, Code, User } from "lucide-react";
+import resume from "@/assets/resume_2025v3.pdf";
 
 export const AboutSection = () => {
   return (
@@ -37,7 +38,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="/resume_2025v3.pdf"
+                href={resume}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
